@@ -1,0 +1,124 @@
+.modal {
+  margin-top: 120px;
+  /* background:red; */
+  width: 400px;
+  position: relative;
+
+  border-radius: 20px;
+}
+
+.mainDiv {
+  width: 50px;
+}
+
+/* .title > h1 { */
+  /* color: yellow; */
+  /* flex: ;
+  color: rgb(160, 137, 6);
+  
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+} */
+
+.title {
+  background: rgb(214, 214, 214);
+  padding-bottom: 2px;
+  color: rgb(209, 179, 9);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: 800;
+  box-shadow: 5px 5px rgb(0, 0, 0);
+  /* font-weight: 800; */
+  /* font-weight: 800; */
+  /* font-size: 2rem; */
+}
+
+.header {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px -2px 2px rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 2rem;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(27, 25, 32, 1) 100%,
+    rgba(0, 0, 0, 1) 99%,
+    rgb(50, 51, 51) 0%,
+    rgb(66, 66, 66) 0%,
+    rgba(71, 13, 21, 1) 0%,
+    rgb(145, 145, 145) 0%
+  );
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  margin: auto;
+
+  color: rgb(160, 137, 6);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.small-info {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.modalBtn {
+  background: linear-gradient(
+    90deg,
+    rgb(145, 145, 145) 0%,
+    rgb(66, 66, 66) 0%,
+    rgba(71, 13, 21, 1) 0%,
+    rgb(50, 51, 51) 0%,
+    rgba(0, 0, 0, 1) 99%,
+    rgba(27, 25, 32, 1) 100%
+  );
+}
+
+.synopsis {
+  color: #fff;
+  font-size: 1.5rem;
+  /* margin-top: 50px; */
+  margin-bottom: auto;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+.body {
+  /* background-image: linear-gradient(
+    90deg,
+    rgb(145, 145, 145) 0%,
+    rgb(66, 66, 66) 0%,
+    rgba(71, 13, 21, 1) 0%,
+    rgb(50, 51, 51) 0%,
+    rgba(0, 0, 0, 1) 99%,
+    rgba(27, 25, 32, 1) 100%
+  ); */
+  /* background-image: radial-gradient(ellipse farthest-corner at 470px 47px , #FFFF80 20%, rgba(204, 153, 153, 0.4) 30%, #E6E6FF 60%); */
+
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 0 0px;
+}
+
+.content {
+  /* border: 2px thick rgb(232, 232, 245); */
+  box-shadow: -2px -2px 2px grey;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* color:rgb(128, 62, 0); */
+}

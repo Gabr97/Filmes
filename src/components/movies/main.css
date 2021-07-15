@@ -1,0 +1,71 @@
+.alice-carousel ul li div {
+    /* height: 200px; */
+    /* width: 50%; */
+    /* margin:50px; */
+  
+    /* height:110px; */
+    /* width: 100%; */
+  
+    /* object-fit: cover; */
+  
+    background-size: cover;
+    background-position: 0 -30px;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    display: grid;
+
+    font-family: 'Montserrat', sans-serif; ;
+    font-weight: 900;
+    text-align: left;
+    align-items: flex-end;
+
+    /* justify-content: center;
+    align-items: center;
+    text-align:center ; */
+
+
+
+    /* font-size: 2em; */
+    /* font-size: 5em; */
+    margin-top: 30px;
+    border: 1px solid rgb(54, 52, 52);
+    margin-bottom: 0.5em;
+    color: rgb(209, 201, 201);
+    border-radius: 55px;
+    
+    transition: 1s ease;
+    cursor: pointer;
+    /* font-weight: bold; */
+  
+    filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
+    -webkit-transition: all 1s ease;
+  }
+
+  .main{
+      margin:20px
+  }
+
+
+  .alice-carousel ul li div:hover {
+  
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+  }
+
+  .head{
+    color:azure;
+    display: flex;
+    cursor: pointer;
+   
+ }
+
+ .head h1:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}

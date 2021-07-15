@@ -1,0 +1,53 @@
+.fav{
+    min-height: 20vh;
+    /* max-height: 30vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px rgb(38, 42, 48);
+    background-position: center 0px;
+    border-radius: 2%;
+    cursor: pointer;
+    display: grid;
+    color: rgb(230, 228, 116);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif; ;
+    font-weight: 900;
+    text-align: left;
+    align-items: flex-end;
+    /* margin: 50px; */
+    /* border: px solid rgb(3, 52, 126); */
+}
+
+.fav-container{
+    margin: 0 100px;
+    /* width: 100vw; */
+
+}
+.fav:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    z-index: 1;
+}
+
+.header{
+    /* color:azure; */
+  display: flex;
+  cursor: pointer;
+ 
+}
+
+h2:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif; ;
+
+}
