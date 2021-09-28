@@ -15,16 +15,7 @@ import { Button } from "bootstrap";
 import { useState } from "react";
 
 const MovieModal = (props) => {
-  // const [movie, setMovie] = useState({
-  //   id: props.id,
-  //   name: props.name,
-  //   director: props.director,
-  //   year: props.releaseYear,
-  //   onList: props.onList,
-  //   image: props.urlImage,
-  //   synopsis: props.synopsis,
-  //   modalImage: props.modalImage,
-  // });
+
 
   return (
     <div className="container">
