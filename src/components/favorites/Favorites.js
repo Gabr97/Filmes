@@ -22,15 +22,12 @@ const Favorites = (props) => {
     const res = await axios.get("http://localhost:8080/movies");
     const movies = res.data;
     setMovies(movies);
-
-    console.log(movies);
   };
 
   const favoriteMovies = movies.filter((movie) => {
     if (movie.onList) return movie;
   });
 
-  console.log(favoriteMovies);
 
   useEffect(() => {
     getMovies();
@@ -71,7 +68,6 @@ const Favorites = (props) => {
     });
   };
 
-  //   console.log(favoriteMovies)
 
   return (
     <>
