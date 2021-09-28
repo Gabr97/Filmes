@@ -27,12 +27,10 @@ const Test = (props) => {
     const res = await axios.get("http://localhost:8080/movies");
     const movies = res.data;
     setMovies(movies);
-    console.log(movies);
   };
 
   useEffect(() => {
     fetchMovies();
-    console.log(action);
   }, []);
 
   const action = movies.filter((movie) => {
